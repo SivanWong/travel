@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*背景图片*/
+body{
+	background:url(../images/index.jpg);
+	background-repeat: no-repeat;
+	background-position:top;
+	background-attachment: fixed;
+	background-size: 1800px 1000px;
+}
+#font{
+    margin-top: 100px;
+    margin-left: 50px;
+    height:300px;
+    width:650px;
+    float: left;
+}
+.Chinese{
+    font-size: 50px;
+    font-family: 隶书;
+}
+.English{
+    font-size: 50px;
+    font-family: Agency FB;
+}
+p{
+	font-size: 80px;
+	font-family: Brush Script MT;
+}
+.login{
+	margin: 100px;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	background-color: #F0FFF0;
+	box-shadow: 10px 10px 10px #66CCFF;
+	border-radius: 25px;
+	float: right;
+}
+img{
+	float: left;
+}
+.login input{
+	height: 64px;
+	width: 250px;
+	font-size: 20px;
+}
+.login a{
+	float:right;
+	font-size: 20px;
+	font-weight: bolder;
+	color:orange;
+}
+.login div{
+	height: 100px;
+	width: 350px;
+}
+.login input[type=submit]{
+	height: 60px;
+	width: 300px;
+	font-size: 30px;
+}
+#encroll{
+	margin: 100px;
+	height: 500px;
+	width: 500px;
+	float: left;
+	text-align: center;
+	background-color: #F0FFF0;
+	box-shadow: 10px 10px 10px #66CCFF;
+	border-radius: 25px;
+	display: none;/*当超链接（立即注册）被点击时才会变为block*/
+}
+#encroll input{
+	height: 60px;
+	width: 300px;
+	font-size: 30px;
+}
+#encroll div{
+	font-size: 30px;
+	height: 100px;
+	width: 500px;
+}
+.tips{
+	font-size:15px;
+    font-family:"Tahoma";
+    color:#DB7093;
+    font-weight:bolder;
+}
+

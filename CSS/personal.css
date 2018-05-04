@@ -1,0 +1,196 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background:url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position:top;
+	background-attachment: fixed;
+	background-size: 1800px 1000px;
+}
+.div1{
+	margin:0 auto;
+	width:1200px;
+	height:80px;
+	text-align: center;
+}
+
+.logo{
+    height:60px;
+    width:150px;
+	float:left;
+	font-size: 80px;
+	font-family: Brush Script MT;
+}
+.daohang{
+	height:80px;
+	width:550px;
+	font-family: 隶书;
+	float:left;
+	margin-left: 80px;
+}
+.daohang1{
+	width:170px;
+	margin:10px auto;
+	font-size: 55px;
+	float:left;
+	text-align: center;
+}
+.search{	
+	width:250px;
+	float: right;
+	margin-right:50px;
+	margin-top: 30px;
+}
+.search input[type=text]{
+	height: 35px;
+	width: 150px;
+}
+.search input[type=button]{
+	height: 35px;
+	width:  50px;
+}
+.a1:link{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.a1:visited{
+	color: black;
+}
+.a1:hover{
+	color:gray;
+}
+.div2{
+	margin:0 auto;
+	width:1200px;
+	margin-top:70px;
+}
+.left{
+	width:320px;
+	float: left;
+}
+.name{
+	width:200px;
+    font-size: 50px;
+    text-align: center;
+
+}
+.mulu li{
+	height:60px;
+	width:250px;
+	font-size: 50px;
+	margin-top:20px;
+	border:1 solid black;
+	text-align: center;
+	font-family: 华文新魏;
+	list-style-type: none;
+	background-color: silver;
+	box-shadow:5px 5px 5px #666666; 
+}
+.a2:link{
+	text-decoration: none;
+	color: black;
+}
+.a2:visited{
+	color: black;
+}
+.a2:hover{
+	font-size: 60px;
+}
+.right{
+	float:right;
+	width:850px;
+	background-color: #F0FFF0;
+	box-shadow: 10px 10px 10px silver;
+	border-radius: 25px;
+}
+.personal,.share,.collect{
+	margin:20px 10px;
+	border-top: 1px solid gray;
+}
+.title{
+	height: 60px;
+}
+.title1{
+	float:left;
+	font-size: 50px;
+	font-family: 隶书;
+	width:300px;
+}
+.icon{
+	float:right;
+}
+.font{
+    margin-top: 10px;
+	font-size: 30px;
+}
+.passage{
+	height:200px;
+	margin-top: 10px;
+	background-color: red;
+}
+.information-title{
+	font-size: 50px;
+	font-family: 隶书;
+	margin: 20px;
+	border-bottom: 1px solid black;
+	height:50px;
+}
+.information-font{
+	font-size: 30px;
+	margin-top: 40px;
+}
+.information-font input{
+	height: 50px;
+	width:200px;
+	font-size: 30px;
+}
+.sex{
+	font-size: 30px;
+	margin-top: 40px;
+}
+.submit{
+	float:right;
+	height: 60px;
+	width: 120px;
+}
+.submit input{
+    height:40px;
+    width: 100px;
+    font-size: 30px;
+}
+.share-title{
+	border-bottom: 1px solid black;
+	margin: 20px;
+	height:50px;
+	font-size: 50px;
+	font-family: 隶书;
+}
+.share-title1{
+	float:left;
+	width:300px;
+}
+.icon{
+	float:right;
+}
+.collect-title{
+	font-size: 50px;
+	font-family: 隶书;
+	margin: 20px;
+	border-bottom: 1px solid black;
+	height:50px;
+}
+.message-title{
+	font-size: 50px;
+	font-family: 隶书;
+	margin: 20px;
+	border-bottom: 1px solid black;
+	height:50px;
+}
+.message-font{
+	height:150px;
+	font-size: 30px;
+	margin-top: 20px;
+}

@@ -1,0 +1,109 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background:url(../images/publish.jpg);
+	background-repeat: no-repeat;
+	background-position:top;
+	background-attachment: fixed;
+	background-size: 1500px 1000px;
+}
+.daohang{
+	margin:0 auto;
+	width:1200px;
+	height:80px;
+}
+.logo{
+    height:60px;
+    width:150px;
+	float:left;
+	font-size: 80px;
+	font-family: Brush Script MT;
+}
+.share{
+	float:right;
+	font-family: 隶书;
+	font-size: 50px;
+}
+.a1:link{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.a1:visited{
+	color:black;
+}
+.a1:hover{
+	color:gray;
+}
+#passage{
+	margin: 10px auto;
+	width: 1200px;
+	height: 800px;
+}
+.theme{
+	width: 1200px;
+	height:100px;
+	padding: 10px;
+}
+.theme div{
+	width: 150px;
+	font-size: 100px;
+	font-family: 华文彩云;
+	float: left;
+}
+.theme font{
+	margin: 50px;
+	font-size: 45px;
+	font-family: 隶书;
+}
+span{
+	height: 50px;
+	float: right;
+    margin-right:30px;
+    margin-top: 10px; 
+	font-size: 50px;
+	font-family: 隶书;
+}
+.photo{
+	width:1200px;
+	height: 250px;
+}
+.photo li{
+	height:200px;
+	width: 300px;
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+.photo img{
+	height:200px;
+	width: 250px;
+}
+.passage{
+	width: 1200px;
+	margin: 20px auto;
+	background-color: #F0FFF0;
+	box-shadow: 10px 10px 10px silver;
+	border-radius: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.font{
+	width: 1000px;
+	margin:0 auto;
+	font-size: 20px;
+}
+.passage ul{
+	width:300px;
+	height:100px;
+	float: right;
+}
+.passage li{
+	width: 100px;
+    list-style-type: none;
+    float: left;
+    cursor: pointer;
+}

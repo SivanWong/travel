@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <link href="../CSS/index.css" rel="stylesheet" type="text/css"/>
+            <script type="text/javascript" src="../JS/index.js">
+            </script>
+            <title>
+                首页
+            </title>
+        </meta>
+    </head>
+    <body>
+    <!--一段文字-->
+        <div id="font">
+            <div class="Chinese">
+                生活是一场漫长的旅行，不要浪费时间，去等待那些不愿与你携手同行的人。
+            </div>
+            <div class="English">
+                Life is a long journey. Don't waste your time waiting for people who are not willing to walk with you.
+            </div>
+        </div>
+        <!--登录框-->
+        <div class="login">
+            <p>
+                Here
+            </p>
+            <form action="share.html" method="get">
+                <div>
+                    <img src="../images/username.png"/>
+                    <input name="username" type="text"/>
+                    <span class="tips"></span>
+                </div>
+                <div>
+                    <img src="../images/password.png"/>
+                    <input name="pwd" type="password"/>
+                    <span class="tips"></span>
+                    <a href="#" onclick="find()">
+                        忘记密码？
+                    </a>
+                </div>
+                <div>
+                    <input type="submit" value="登录"/>
+                    <a href="#" id="login">
+                        立即注册
+                    </a>
+                </div>
+            </form>
+        </div>
+        <!--注册框-->
+        <div id="encroll">
+            <p>
+                Here
+            </p>
+            <form action="share.html" method="get">
+                <div>
+                    手机号码：
+                    <input name="username" type="text"/>
+                    <span class="tips">
+                    
+                    </span>
+                </div>
+                <div>
+                    您的密码：
+                    <input name="password1" type="password"/>
+                    <span class="tips">
+                    </span>
+                </div>
+                <div>
+                    确认密码：
+                    <input name="password2" type="password"/>
+                    <span class="tips">
+                    </span>
+                </div>
+                <div>
+                    <input type="submit" value="注册"/>
+                </div>
+            </form>
+        </div>       
+    </body>
+</html>
